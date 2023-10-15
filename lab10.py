@@ -125,7 +125,7 @@ def new_game():
     win.protocol("VM_DELETE_WINDOW", lambda: dismiss(win))
     win.grab_set()
 
-    main_label = Label(win, text="Выбирете необходимый вариант", font=("Arial 10 bold"), justify=CENTER, )
+    main_label = Label(win, text="Выберите нужный вариант.", font=("Arial 10 bold"), justify=CENTER, )
     main_label.pack()
 
     new_game_btn1 = Button(win, text='Новая Игра', command=new_game_btn)
